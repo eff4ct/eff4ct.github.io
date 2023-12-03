@@ -1,0 +1,9 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.footer h4 {
+    position: relative;
+    top: 70vh;
+  }
