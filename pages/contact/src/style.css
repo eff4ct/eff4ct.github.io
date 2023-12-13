@@ -3,4 +3,38 @@ body, html {
     margin: 0;
 }
 
+.container, .container-two {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.container p,
+.container-two p {
+    margin-bottom: 15px; 
+}
+
+h2 {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 200px; 
+    margin-bottom: 150px;
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+
+.container p {
+    float: left;
+    margin-bottom: 75px;
+}
+
+.container p a {
+    color: white;
+    font-weight: bold;
+}
+
+.container p a:hover {
+    text-decoration: underline;
+}
 
