@@ -1,6 +1,49 @@
-h2 {
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 425px; 
-    font-size: 22px;
-  }
+
+h3 {
+    position: absolute;  
+    top: 25%;
+    left: 40%;
+    font-size: 19.5px;
+    
+}
+
+h3 a {
+    color: white;
+    font-size: 19.5px;
+}
+
+h4 {
+  position: absolute;  
+  top: 35%;
+  left: 40%;
+  font-size: 19.5px;
+}
+
+h4 a {
+  color: white;
+  font-size: 19.5px;
+}
+
+h5 {
+  position: absolute;  
+  top: 45%;
+  left: 40%;
+  font-size: 19.5px;
+}
+
+h5 a {
+  color: white;
+  font-size: 19.5px;
+}
+
+h6 {
+  position: absolute;  
+  top: 55%;
+  left: 40%;
+  font-size: 19.5px;
+}
+
+h6 a {
+  color: white;
+  font-size: 19.5px;
+}

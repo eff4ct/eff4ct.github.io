@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../accueil/src/style.css"/>
+    <link rel="stylesheet" href="../project1/src/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>eff4ct - portfolio</title>
+</head>
+<body>
+
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        
+        <label class="title"><a href="../../accueil/index.html">
+            <img src="../../../src/img/Twenty-boys.jpg">
+            <h1>Word counter</h1>
+        </a></label>
+        <ul class="menu">
+            <li><a href="../../about/index.html">About</a></li>
+            <li><a href="../../work/index.html">Work</a></li>
+            <li><a href="../../contact/index.html">Contact</a></li>
+        </ul>
+        
+    </nav>
+
+    <h3>Welcome to my word counter, 
+    please write your text in the text box below and discover the number of words present in your text 
+    by validating with the button "Count Words".</h3>
+
+    <textarea id="text" rows="4" cols="50" placeholder="Please enter your text here..."></textarea>
+    <br>
+    <button onclick="number()">Count Words</button>
+    <p id="result"></p>
+    <h4>Github repository link: <a href="https://github.com/eff4ct/wordcounter">https://github.com/eff4ct/wordcounter</a></h4>
+    <div class="footer">
+        <p>Design By : <a href="">effect</a></p>
+        <a href="https://discord.com/users/1036382622202482728" target="_blank" class="icon"><i class="fab fa-discord"></i></a>
+        <a href="https://github.com/eff4ct" target="_blank" class="icon"><i class="fab fa-github"></i></a>
+        <a href="https://tryhackme.com/p/Matt23" target="_blank" class="icon"><i class="fas fa-laptop-code"></i></a>
+    </div>
+
+    <script src="src/script.js"></script>
+
+
+</body>
+</html>

@@ -116,8 +116,7 @@ img {
   color: white;
   margin: 5.5px;
   cursor: pointer;
-  transition: color 0.3s;
-  margin-top: 15px;
+  transition: color 0.3s; 
 }
 
 

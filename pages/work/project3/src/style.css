@@ -1,0 +1,14 @@
+h2 {
+    position: absolute;
+    top: 20%;
+}
+
+h2 a {
+    color: white;
+}
+
+@media (max-width: 858px) {
+    label.title h1 {
+        margin-left: 120px;
+    }
+}
