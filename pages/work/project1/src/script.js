@@ -1,15 +1,15 @@
 function wd_count(text) {
-  const separators = [' ', '.', '?', ',', ';'];
+  const ponctuation = [' ', '.', '?', ',', ';', ':', '!', '*'];
   let count = 0;
-  let word_start = false;
+  let start = true;
 
   for (let i = 0; i < text.length; i++) {
       const char = text[i];
-      if (separators.includes(char)) {
-          word_start = false;
-      } else if (!word_start) {
+      if (ponctuation.includes(char)) {
+          start = false;
+      } else if (!start) {
           count += 1;
-          word_start = true;
+          start = true;
       }
   }
 
