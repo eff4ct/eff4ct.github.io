@@ -1,7 +1,7 @@
 function wd_count(text) {
   const ponctuation = [' ', '.', '?', ',', ';', ':', '!', '*'];
   let count = 0;
-  let start = true;
+  let start = false;
 
   for (let i = 0; i < text.length; i++) {
       const char = text[i];
