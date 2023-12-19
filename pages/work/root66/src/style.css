@@ -1,0 +1,91 @@
+.elements h2 {
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+.elements p a {
+    text-decoration: underline;
+    color: white;
+}
+
+h2 a {
+    color: white;
+}
+
+h3, h4, h5, h6 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+p em a {
+    text-decoration: underline;
+    color: white;
+}
+
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #ea6f45;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    font-size: 20px;
+    margin: 20px;
+}
+
+#image {
+    position: relative;
+    top: 50%;
+    height: 20%;
+    width: 20%;
+    border-radius: 0;
+    
+}
+
+#image-two {
+    position: relative;
+    top: 60%;
+    height: 20%;
+    width: 20%;
+    border-radius: 0;
+}
+
+section {
+    min-width: 300px;
+}
+
+.source p {
+    margin-top: 20px;
+}
+
+.elements  {
+    margin-top: 50px;
+    min-width: 250px;
+}
+
+
+.footer {
+    margin-top: 50px;
+}
+
+@media (max-width: 858px) {
+    label.title h1 {
+        margin-left: 120px;
+    }
+}

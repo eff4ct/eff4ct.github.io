@@ -1,10 +1,44 @@
 h2 {
-    position: absolute;
-    top: 20%;
+    margin-top: 100px;
+    margin-bottom: 15px;
 }
 
 h2 a {
     color: white;
+}
+
+p em a {
+    text-decoration: underline;
+    color: white;
+}
+
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #ea6f45;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    margin: 20px;
+}
+
+.design-elements p {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 @media (max-width: 858px) {

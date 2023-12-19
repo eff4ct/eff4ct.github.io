@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../accueil/src/style.css"/>
-    <link rel="stylesheet" href="../project4/src/style.css"/>
+    <link rel="stylesheet" href="../wordcounter/src/style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <title>eff4ct - portfolio</title>
 </head>
@@ -18,7 +18,7 @@
         
         <label class="title"><a href="../../accueil/index.html">
             <img src="../../../src/img/Twenty-boys.jpg">
-            <h1>Root66</h1>
+            <h1>Word counter</h1>
         </a></label>
         <ul class="menu">
             <li><a href="../../about/index.html">About</a></li>
@@ -28,14 +28,15 @@
         
     </nav>
 
-    <section class="design-elements">
-        <h2>Project Overview</h2>
-        <p>I'm collaborating with <em><a href="https://github.com/cnf409/">conflict</a></em> on the project "Root66" which is our evolving cybersecurity 
-        site, it allows you to test your cybersecurity skills with a system of «Capture the flag» (CTF) which consists of solving several tests to earn points. Different categories are available like (Programming, OSINT, Pwn, Web, Forensics), all with different levels of difficulty. A ranking and performance monitoring system is also set up. 
-        A donée-based system is present on the site to manage the elements specific to each user.</p>
-    </section>
+    <h3>Welcome to my word counter, 
+    please write your text in the text box below and discover the number of words present in your text 
+    by validating with the button "Count Words".</h3>
 
-    <img src="/src/img/root.png" height="50px" width="50px">
+    <textarea id="text" rows="4" cols="50" placeholder="Please enter your text here..."></textarea>
+    <br>
+    <button onclick="number()">Count Words</button>
+    <p id="result"></p>
+    <h4>Github repository link: <a href="https://github.com/eff4ct/wordcounter" target="_blank">https://github.com/eff4ct/wordcounter</a></h4>
     
     <div class="footer">
         <p>Design By : <a href="">effect</a></p>
@@ -44,8 +45,7 @@
         <a href="https://tryhackme.com/p/Matt23" target="_blank" class="icon"><i class="fas fa-laptop-code"></i></a>
     </div>
 
-    
-    <script src="js/app.js"></script>
+    <script src="src/script.js"></script>
 
 
 </body>

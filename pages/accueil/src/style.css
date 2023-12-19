@@ -157,8 +157,19 @@ img {
     background: #454544;
     top: 80px;
     left: -100%;
-    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
     transition: all .5s;
+  }
+
+  nav ul li {
+    margin-bottom: 10px; 
+  }
+
+  nav ul li a {
+    font-size: 25px; 
   }
 }
 
@@ -168,7 +179,7 @@ img {
     padding-left: 50px;
   }
   nav ul li a {
-    font-size: 16px;
+    font-size: 25px;
   }
 }
 
